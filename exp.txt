@@ -1,0 +1,33 @@
+Microsoft (R) COFF/PE Dumper Version 14.11.25508.2
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file dll.dll
+
+File Type: DLL
+
+  Section contains the following exports for dll.dll
+
+    00000000 characteristics
+    FFFFFFFF time date stamp
+        0.00 version
+           1 ordinal base
+           3 number of functions
+           3 number of names
+
+    ordinal hint RVA      name
+
+          1    0 000110F5 Cnk = @ILT+240(_Cnk)
+          2    1 000111DB Hello = @ILT+470(_Hello)
+          3    2 0001103C factorial = @ILT+55(_factorial)
+
+  Summary
+
+        1000 .00cfg
+        1000 .data
+        1000 .idata
+        2000 .rdata
+        1000 .reloc
+        1000 .rsrc
+        6000 .text
+       10000 .textbss
