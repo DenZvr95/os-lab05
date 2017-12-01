@@ -12,6 +12,7 @@ int main() {
 
 	printf("This program can count C(n,k). Enter 0 0 to exit.\n");
 	do {
+
 		printf("Test %d: Enter n, k: ", ++local_n);
 		scanf("%d %d", &n, &k);
 		printf("C(%d,%d)=%d\n", n, k, C(n, k));
