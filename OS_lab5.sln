@@ -7,6 +7,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OS_lab5", "OS_lab5\OS_lab5.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dll", "dll\dll.vcxproj", "{CBCA5C8A-7EA2-4235-B5CE-549B0F437A7A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dlluser", "dlluser\dlluser.vcxproj", "{378B59A5-409A-4F8E-952A-A4283962D691}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CBCA5C8A-7EA2-4235-B5CE-549B0F437A7A} = {CBCA5C8A-7EA2-4235-B5CE-549B0F437A7A}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +36,14 @@ Global
 		{CBCA5C8A-7EA2-4235-B5CE-549B0F437A7A}.Release|x64.Build.0 = Release|x64
 		{CBCA5C8A-7EA2-4235-B5CE-549B0F437A7A}.Release|x86.ActiveCfg = Release|Win32
 		{CBCA5C8A-7EA2-4235-B5CE-549B0F437A7A}.Release|x86.Build.0 = Release|Win32
+		{378B59A5-409A-4F8E-952A-A4283962D691}.Debug|x64.ActiveCfg = Debug|x64
+		{378B59A5-409A-4F8E-952A-A4283962D691}.Debug|x64.Build.0 = Debug|x64
+		{378B59A5-409A-4F8E-952A-A4283962D691}.Debug|x86.ActiveCfg = Debug|Win32
+		{378B59A5-409A-4F8E-952A-A4283962D691}.Debug|x86.Build.0 = Debug|Win32
+		{378B59A5-409A-4F8E-952A-A4283962D691}.Release|x64.ActiveCfg = Release|x64
+		{378B59A5-409A-4F8E-952A-A4283962D691}.Release|x64.Build.0 = Release|x64
+		{378B59A5-409A-4F8E-952A-A4283962D691}.Release|x86.ActiveCfg = Release|Win32
+		{378B59A5-409A-4F8E-952A-A4283962D691}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

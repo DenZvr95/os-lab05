@@ -19,7 +19,7 @@ int main() {
 	} while (n != 0 || k != 0);
 
 
-	printf("Addresses %x %x %x %x %x %x\n", &extern_n, &i_global_n, &global_n, &n, &k, &local_n);
+	//printf("Addresses %x %x %x %x %x %x\n", &extern_n, &i_global_n, &global_n, &n, &k, &local_n);
 	printf("You tried %d times\n", local_n);
 	return 0;
 }
